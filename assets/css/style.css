@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+:root{
+    --primary-color: rgb(129, 230, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: var(--primary-color);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    /*
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    */
+}
+
+.container{
+    width: 100%;
+    max-width: 485px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 2px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.822);
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 5px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+    text-transform: uppercase;
+}
+input{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+   background-color: rgb(255, 124, 124);
+}
+canvas{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.calculadoar{
+    width: 400px;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-eq{
+    background: #b3b3b3;
+}
